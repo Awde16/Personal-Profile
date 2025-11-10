@@ -1,4 +1,4 @@
-/* Reset */
+/* INDEX PAGE STYLES */
 * {
   margin: 0;
   padding: 0;
@@ -94,4 +94,34 @@ footer {
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.9rem;
+}
+
+
+
+/* PROJECTS PAGE STYLES */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.project-card {
+  background-color: #1e293b;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  color: #38bdf8;
 }
